@@ -9,9 +9,8 @@
     "noEmit": false,
     "outDir": "dist/",
     "rootDir": "src",
-    "typeRoots": [
-      "../../@types",
-      "../../node_modules/@types"
-    ]
-  }
+    "typeRoots": ["../../@types", "../../node_modules/@types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["tests/**/*.test.ts"]
 }
