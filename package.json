@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "yarn workspaces run dev",
 		"test": "yarn workspaces run test",
-    "compile": "yarn workspace core build"
+    "build": "yarn workspaces run build"
   },
   "workspaces": {
     "packages": [
