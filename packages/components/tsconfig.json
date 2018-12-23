@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": false,
+    "allowJs": true,
     "composite": true,
     "declaration": true,
     "jsx": "preserve",
@@ -14,6 +14,7 @@
     ]
   },
   "include": ["src/"],
+  "exclude": ["src/**/*.test.tsx", "node_modules"],
   "references": [
     { "path": "../core" }
   ]
