@@ -1,7 +1,11 @@
 # devon
-[![CircleCI](https://circleci.com/gh/nampdn/devon.svg?style=svg)](https://circleci.com/gh/nampdn/devon)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnampdn%2Fdevon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnampdn%2Fdevon?ref=badge_shield)
+[![CircleCI](https://circleci.com/gh/nampdn/devon.svg?style=svg)](https://circleci.com/gh/nampdn/devon) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnampdn%2Fdevon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnampdn%2Fdevon?ref=badge_shield)
 
 Quickly spinnup dev apps on your machine without too many boilerplate code.
+
+# Project status
+
+[![Throughput Graph](http://graphs.waffle.io/nampdn/devon/throughput.svg)](https://waffle.io/nampdn/devon/metrics)
 
 # How to contribute
 
