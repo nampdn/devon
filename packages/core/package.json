@@ -1,18 +1,20 @@
 {
-  "name": "core",
+  "name": "@devon/core",
   "version": "0.0.0",
   "description": "Core operators",
-  "main": "index.js",
+  "main": "dist",
   "repository": "https://github.com/nampdn/devon.git",
   "author": "Nam Pham <nampdn@protonmail.com>",
   "license": "MIT",
   "private": false,
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc -b",
     "test": "jest",
-    "clean": "rimraf dist/*",
+    "clean": "rimraf dist",
     "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'",
     "lint": "tslint -p ."
   },
@@ -20,6 +22,7 @@
     "@types/jest": "^23.3.10",
     "jest": "^23.6.0",
     "prettier": "1.15.3",
+    "rimraf": "2.6.2",
     "ts-jest": "^23.10.5",
     "tslint": "5.12.0",
     "tslint-config-airbnb": "5.11.1",
