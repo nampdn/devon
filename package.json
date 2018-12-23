@@ -1,23 +1,28 @@
 {
   "name": "devon",
   "version": "0.0.0",
-  "description": "Quickly spinnup dev on without too many boilerplate code.",
-  "main": "index.js",
-  "repository": "https://github.com/nampdn/devon.git",
-  "author": "Nam Pham <nampdn@protonmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "yarn workspaces run dev",
-		"test": "yarn workspaces run test",
+    "test": "yarn workspaces run test",
     "build": "yarn workspaces run build",
-		"clean": "yarn workspaces run clean"
+    "clean": "yarn workspaces run clean"
   },
   "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": []
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/react",
+      "**/react/**",
+      "**/ts-jest",
+      "**/ts-jest/**",
+      "**/babel-jest",
+      "**/babel-jest/**",
+      "**/react-native",
+      "**/react-native/**",
+      "**/metro-react-native-babel-preset",
+      "**/metro-react-native-babel-preset/**"
+    ]
   },
   "devDependencies": {
     "concurrently": "4.1.0",
