@@ -1,0 +1,25 @@
+{
+  "name": "devon",
+  "version": "0.0.0",
+  "description": "Quickly spinnup dev on without too many boilerplate code.",
+  "main": "index.js",
+  "repository": "https://github.com/nampdn/devon.git",
+  "author": "Nam Pham <nampdn@protonmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "devDependencies": {
+    "concurrently": "4.1.0",
+    "husky": "1.2.1",
+    "prettier": "1.15.3",
+    "tslint": "5.12.0",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.2.2"
+  }
+}
