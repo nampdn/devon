@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "dev": "yarn workspaces run dev",
+		"test": "yarn workspaces run test",
     "compile": "yarn workspace core build"
   },
   "workspaces": {
