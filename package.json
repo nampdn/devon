@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "yarn workspaces run dev",
 		"test": "yarn workspaces run test",
-    "build": "yarn workspaces run build"
+    "build": "yarn workspaces run build",
+		"clean": "yarn workspaces run clean"
   },
   "workspaces": {
     "packages": [
