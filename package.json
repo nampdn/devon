@@ -10,7 +10,10 @@
     "clean": "yarn workspaces run clean",
     "dev:core": "yarn workspace @devon/core dev",
     "dev:components": "yarn workspace @devon/components dev",
-    "dev:mobile": "yarn workspace @devon/mobile dev"
+    "dev:mobile": "yarn workspace @devon/mobile dev",
+    "add:core": "yarn workspace @devon/core add",
+    "add:components": "yarn workspace @devon/components add",
+    "add:mobile": "yarn workspace @devon/mobile add"
   },
   "workspaces": {
     "packages": ["packages/*"],
