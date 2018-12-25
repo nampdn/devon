@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/node:11.5
-    parallelism: 4
     working_directory: ~/devon
     steps:
       - checkout
