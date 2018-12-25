@@ -16,8 +16,6 @@
 {
   NSURL *jsCodeLocation;
 
-  NSURL *jsCodeLocation;
-
   NSString *ENTRY_FILE = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"ENTRY_FILE"];
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:ENTRY_FILE fallbackResource:nil];
 
