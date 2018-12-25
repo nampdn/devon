@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
-               BuildableName = "libReact.a"
-               BlueprintName = "React-tvOS"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
                BuildableName = "mobile-tvOS.app"
                BlueprintName = "mobile-tvOS"
@@ -46,6 +32,20 @@
                BuildableName = "mobile-tvOSTests.xctest"
                BlueprintName = "mobile-tvOSTests"
                ReferencedContainer = "container:mobile.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
+               BuildableName = "libReact.a"
+               BlueprintName = "React-tvOS"
+               ReferencedContainer = "container:../../../node_modules/react-native/React/React.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

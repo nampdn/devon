@@ -1,9 +1,11 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+import React from 'react'
+import { Text, View } from 'react-native'
 
-export const App = () => (
-  <View>
-    <Text>DEVON</Text>
-    <Text>Build apps without gaps!</Text>
-  </View>
-);
+export function App() {
+  return (
+    <View>
+      <Text>DEVON</Text>
+      <Text>Build apps without gaps!</Text>
+    </View>
+  )
+}

@@ -1,6 +1,6 @@
 {
   "name": "@devon/components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist",
   "private": false,
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@devon/core": "0.0.0",
-    "react": "16.7.0",
+    "react": "16.7.0-alpha-2",
     "react-native": "npm:@brunolemos/react-native"
   },
   "devDependencies": {
