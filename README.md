@@ -4,8 +4,9 @@
 
 Build any app that will work across multiple targets: web, mobile, desktop using React and TypeScript.
 
-[![CircleCI](https://circleci.com/gh/nampdn/devon.svg?style=svg)](https://circleci.com/gh/nampdn/devon) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnampdn%2Fdevon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnampdn%2Fdevon?ref=badge_shield)
-
+[![](https://img.shields.io/circleci/project/github/nampdn/devon/master.svg)](https://circleci.com/gh/nampdn/devon) [![Waffle.io - Columns and their card count](https://badge.waffle.io/nampdn/devon.svg?columns=all&style=flat)](https://waffle.io/nampdn/devon)
+ [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnampdn%2Fdevon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnampdn%2Fdevon?ref=badge_shield)
+ 
 ## Status
 
 [![Throughput Graph](http://graphs.waffle.io/nampdn/devon/throughput.svg)](https://waffle.io/nampdn/devon/metrics)
