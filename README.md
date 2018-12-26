@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" src="./logo.png" width="480" alt="devon" />
+  <img align="center" src="./resources/logo.png" width="480" alt="devon" />
 </p>
 
 Build any app that will work across multiple targets: web, mobile, desktop using React and TypeScript.
