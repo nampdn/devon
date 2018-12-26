@@ -30,7 +30,7 @@
     "packages": [
       "packages/*"
     ],
-    "-nohoist": [
+    "nohoist": [
       "**/ts-jest",
       "**/ts-jest/**",
       "**/babel-jest",
