@@ -16,7 +16,7 @@
     "test": "echo 'web will be tested soon!'"
   },
   "dependencies": {
-    "@babel/polyfill": "7.0.0",
+    "@babel/polyfill": "7.2.5",
     "@devon/components": "0.0.1",
     "react": "16.7.0-alpha.2",
     "react-app-polyfill": "0.2.0",
