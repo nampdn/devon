@@ -24,7 +24,7 @@
     "react-dom": "16.7.0-alpha.2",
     "react-native-web": "0.9.9",
     "react-scripts": "2.1.1",
-    "resize-observer-polyfill": "1.5.0",
+    "resize-observer-polyfill": "1.5.1",
     "smoothscroll-polyfill": "0.4.3"
   },
   "devDependencies": {
