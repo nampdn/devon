@@ -15,14 +15,16 @@
     "dev:core": "yarn workspace @devon/core dev",
     "dev:components": "yarn workspace @devon/components dev",
     "dev:mobile": "yarn workspace @devon/mobile dev",
+    "dev:web": "yarn workspace @devon/web dev",
     "add:core": "yarn workspace @devon/core add",
     "add:components": "yarn workspace @devon/components add",
     "add:mobile": "yarn workspace @devon/mobile add",
     "run:core": "yarn workspace @devon/core",
     "run:components": "yarn workspace @devon/components",
     "run:mobile": "yarn workspace @devon/mobile",
-    "start:mobile": "yarn build && concurrently --kill-others \"yarn build -w\" \"yarn workspace @devon/mobile dev\"",
-    "start:web": "yarn build && concurrently --kill-others \"yarn build -w\" \"yarn workspace @devon/web dev\""
+    "start:mobile": "yarn run:mobile build && concurrently --kill-others \"yarn build -w\" \"yarn workspace @devon/mobile dev\"",
+    "start:web": "yarn run:web build && concurrently --kill-others \"yarn build -w\" \"yarn workspace @devon/web dev\"",
+    "start:desktop": "BROWSER=none concurrently \"yarn dev:web\" \"yarn workspace @devon/desktop compile -w\" \"wait-on http://localhost:3000 && yarn workspace @devon/desktop start\""
   },
   "workspaces": {
     "packages": [

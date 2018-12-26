@@ -1,0 +1,53 @@
+{
+  "name": "@devon/desktop",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn clean && yarn compile && cd ../web && yarn build && cd ../desktop",
+    "build:electron": "NODE_ENV=production electron-builder -mw",
+    "compile": "tsc -b",
+    "clean": "rm -rf build && rm -rf dist",
+    "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'",
+    "lint": "tslint -p .",
+    "predeploy": "yarn run build",
+    "start": "NODE_ENV=development nodemon --watch dist/*.js --watch assets --exec \"electron .\"",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "build": {
+    "appId": "com.devon.app",
+    "productName": "DevOn",
+    "extends": null,
+    "directories": {
+      "app": "../../",
+      "buildResources": "assets"
+    },
+    "extraMetadata": {
+      "main": "packages/desktop/dist/index.js"
+    },
+    "files": [
+      "packages/core/dist/index.js",
+      "packages/core/package.json",
+      "packages/desktop/assets/**",
+      "packages/desktop/dist/**",
+      "packages/web/dist/**",
+      "packages/web/public/**"
+    ],
+    "mac": {
+      "icon": "icons/icon.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icons/icon.ico"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "4.0.0",
+    "electron-builder": "20.38.3",
+    "nodemon": "1.18.9",
+    "tslint": "5.11.0",
+    "typescript": "3.2.2",
+    "wait-on": "3.2.0"
+  }
+}
