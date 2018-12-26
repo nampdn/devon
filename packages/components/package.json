@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@devon/core": "0.0.0",
-    "react": "16.7.0-alpha.2",
+    "react": "16.7.0",
     "react-native": "npm:@brunolemos/react-native"
   },
   "devDependencies": {
