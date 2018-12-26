@@ -13,7 +13,7 @@
     "prepare": "cd .. && yarn patch-package",
     "serve": "serve dist",
     "dev": "react-app-rewired start",
-    "test": "react-app-rewired test"
+    "test": "echo 'web will be tested soon!'"
   },
   "dependencies": {
     "@babel/polyfill": "7.0.0",
