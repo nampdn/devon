@@ -38,20 +38,4 @@ patch-package
    }
  });
  
---- a/node_modules/react-native-web/dist/modules/ScrollResponder/index.js
-+++ b/node_modules/react-native-web/dist/modules/ScrollResponder/index.js
-@@ -355,9 +355,11 @@ var ScrollResponderMixin = {
-       animated = _ref.animated;
-     }
-     var node = this.scrollResponderGetScrollableNode();
--    UIManager.updateView(node, { style: { scrollBehavior: !animated ? 'auto' : 'smooth' } }, this);
--    node.scrollLeft = x || 0;
--    node.scrollTop = y || 0;
-+    node.scroll({
-+      top: y || 0,
-+      left: x || 0,
-+      behavior: !animated ? 'auto' : 'smooth',
-+    })
-   },
-
    /**
