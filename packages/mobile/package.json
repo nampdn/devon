@@ -20,7 +20,7 @@
     "metro-react-native-babel-preset": "0.51.1",
     "react": "16.7.0-alpha.2",
     "react-native": "npm:@brunolemos/react-native",
-    "react-native-screens": "1.0.0-alpha.19"
+    "react-native-screens": "1.0.0-alpha.22"
   },
   "resolutions": {
     "scheduler": "0.12.0"
