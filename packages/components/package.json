@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.2.2",
-    "@types/jest": "23.3.12",
+    "@types/jest": "23.3.13",
     "@types/react": "16.7.20",
     "@types/react-native": "0.57.29",
     "@types/react-primitives": "0.6.2",
