@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/jest": "23.3.13",
     "@types/node": "10.12.20",
-    "@types/react": "16.7.22",
+    "@types/react": "16.8.0",
     "@types/react-dom": "16.0.11",
     "babel-plugin-react-native-web": "0.10.0",
     "postinstall-prepare": "1.0.1",
