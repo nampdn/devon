@@ -46,7 +46,7 @@
     "electron": "4.0.8",
     "electron-builder": "20.38.5",
     "nodemon": "1.18.10",
-    "tslint": "5.13.1",
+    "tslint": "5.14.0",
     "typescript": "3.3.3333",
     "wait-on": "3.2.0"
   }
