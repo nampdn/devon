@@ -2050,10 +2050,10 @@ babel-plugin-named-asset-import@^0.2.3:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.2.3.tgz#b40ed50a848e7bb0a2a7e34d990d1f9d46fe9b38"
   integrity sha512-9mx2Z9M4EGbutvXxoLV7aUBCY6ps3sqLFl094FeA2tFQzQffIh0XSsmwwQRxiSfpg3rnb5x/o46qRLxS/OzFTg==
 
-babel-plugin-react-native-web@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.11.0.tgz#835e544237a2ed89beecafbd757732812cc5631e"
-  integrity sha512-UgHNucpn44XkcYdbYkphWlUGRXZEl4PvLwpeOmmAUQuqlL8wOqBCV2grglhAsSlYkbzBdDgOEviBNYlebXiyng==
+babel-plugin-react-native-web@0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.11.1.tgz#0b4a22a79fc6d99f6dd64dea4701d087a0207e65"
+  integrity sha512-l0BnsEVxACoNbNjIIHTlmwViruBDOa6zbt/95bXwMw/Lz18266n0Q2OPH4LxFWpxDtXTEi84LiG2E2LBe8b+vg==
 
 babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
