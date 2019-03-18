@@ -10023,10 +10023,10 @@ react-native-screens@1.0.0-alpha.19:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.19.tgz#ecf3c9023e169b7013266d40b9c5599f37667f6d"
   integrity sha512-+a7GdwzLWYWYVUJMg+XuyBoRFGD8GdGyBfebuTNBY+xwUZpTXCaK/GlLGL6EE3h0iBHZu83do7zViEailWRNyA==
 
-react-native-testing-library@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/react-native-testing-library/-/react-native-testing-library-1.6.0.tgz#857f5cddea26f43ee8d942779d98209fe355f66e"
-  integrity sha512-fUdwLp+PqTOAIWtOwa3D5+KnUiPEj6qAnXrtZKQji+w5hnn7YHNnf1YYQad3H/GP8mJq5Y8GG/KBKnBXpq7WxA==
+react-native-testing-library@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-testing-library/-/react-native-testing-library-1.6.1.tgz#655c6ddbca6447339a7cd8729fb574ba3cf00d69"
+  integrity sha512-plGZ3zCP5zT4nxL+4x7sdmv/OFOIGRyWceIAe6CxO2ZC9BXauhAUKP/AUNI/5fviW2EkVnNqni61RVNoqsSYEQ==
   dependencies:
     pretty-format "^24.0.0"
 
