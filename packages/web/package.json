@@ -23,7 +23,7 @@
     "react-art": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
     "react-native-web": "0.9.10",
-    "react-scripts": "2.1.1",
+    "react-scripts": "2.1.8",
     "resize-observer-polyfill": "1.5.1",
     "smoothscroll-polyfill": "0.4.3"
   },
